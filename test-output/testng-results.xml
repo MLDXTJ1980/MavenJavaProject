@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11232" started-at="2022-05-12T13:54:09 MESZ" finished-at="2022-05-12T13:54:20 MESZ">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11232" started-at="2022-05-12T13:54:09 MESZ" finished-at="2022-05-12T13:54:20 MESZ">
+      <class name="qamacmon.MavenJavaProject.SeleniumTest">
+        <test-method status="PASS" signature="InvalidMAC(java.lang.String)[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@59906517]" name="InvalidMAC" duration-ms="3716" started-at="2022-05-12T13:54:09 MESZ" data-provider="invalid-mac" finished-at="2022-05-12T13:54:13 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00-0C-29-AF-00-01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMAC -->
+        <test-method status="PASS" signature="InvalidMAC(java.lang.String)[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@59906517]" name="InvalidMAC" duration-ms="1844" started-at="2022-05-12T13:54:13 MESZ" data-provider="invalid-mac" finished-at="2022-05-12T13:54:15 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00 0C 29 AF 00 01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidMAC -->
+        <test-method status="PASS" signature="ValidMAC(java.lang.String)[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@59906517]" name="ValidMAC" duration-ms="1900" started-at="2022-05-12T13:54:15 MESZ" data-provider="valid-mac" finished-at="2022-05-12T13:54:17 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00:0C:29:AF:00:01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMAC -->
+        <test-method status="PASS" signature="ValidMAC(java.lang.String)[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@59906517]" name="ValidMAC" duration-ms="1861" started-at="2022-05-12T13:54:17 MESZ" data-provider="valid-mac" finished-at="2022-05-12T13:54:18 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[000C29AF0001]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMAC -->
+        <test-method status="PASS" signature="ValidMAC(java.lang.String)[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@59906517]" name="ValidMAC" duration-ms="1846" started-at="2022-05-12T13:54:18 MESZ" data-provider="valid-mac" finished-at="2022-05-12T13:54:20 MESZ">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[00.0C.29.AF.00.01]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidMAC -->
+      </class> <!-- qamacmon.MavenJavaProject.SeleniumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

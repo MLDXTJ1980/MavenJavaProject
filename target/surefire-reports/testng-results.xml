@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="58" started-at="2022-05-12T12:12:40 MESZ" finished-at="2022-05-12T12:12:40 MESZ">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="58" started-at="2022-05-12T12:12:40 MESZ" finished-at="2022-05-12T12:12:40 MESZ">
+      <class name="qamacmon.MavenJavaProject.SeleniumTest">
+        <test-method status="PASS" signature="ValidateMAC()[pri:0, instance:qamacmon.MavenJavaProject.SeleniumTest@5e853265]" name="ValidateMAC" duration-ms="10" started-at="2022-05-12T12:12:40 MESZ" finished-at="2022-05-12T12:12:40 MESZ">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateMAC -->
+      </class> <!-- qamacmon.MavenJavaProject.SeleniumTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
